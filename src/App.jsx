@@ -1,6 +1,7 @@
 import "./App.css";
 import Footer from "./footer.jsx";
 import Notes from "./Notes.jsx";
+import Card from "./Cards.jsx";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
         </div>
         <div>
           <Notes />
+        </div>
+        <div>
+          <Card />  
         </div>
         <div>
           <Footer />
